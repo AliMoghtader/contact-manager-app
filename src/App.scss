@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 87%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.editContactHeader{
+  width: 70%;
+  color: #ffb86c;
+  text-align: center;
+  border-bottom: #44475a 1px solid;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.editDiv{
+  width: 60%;
+  padding: 10px;
+  background: #44475a;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > .editImg{
+    
+    margin-bottom: 40px;
+    > img{
+      max-height: 205px;
+      border: 1px #bd93f9 solid;
+      margin-left: 10px;
+    }
+  }
+  > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    > fieldset{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      > input{
+        margin-bottom: 5px;
+        background: #44475a;
+        color: white;
+        padding-right: 5px;
+        border: 1px solid #bd93f9;
+        border-radius: 4px;
+        width: 100%;
+        &::placeholder{
+          color: white;
+
+        }
+      }
+      &:nth-child(2){
+        margin-top: 10px;
+        flex-direction: row;
+        > button{
+          margin-right: 5px;
+          color: #282c34;
+          padding:  5px 5px;
+          border-radius: 5px;
+        }
+        > .createContactBtn{
+          background: #bd93f9;
+        }
+        > .cancelContactBtn{
+          background: #6272a4;
+        }
+      }
+    }
+  } 
+}
+.editImgVector{
+  display: flex;
+  justify-content: flex-end;
+  min-height: 300px;
+  margin-top: 35px;
+  > img{
+    max-height: 290px;
+  }
+}
+
+.createContactHeader{
+  width: 70%;
+  color: #50fa7b;
+  text-align: center;
+  border-bottom: #44475a 1px solid;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.inputDiv{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  > div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    > form{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 70%;
+      > fieldset{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        > input{
+          margin-bottom: 5px;
+          background: #44475a;
+          color: white;
+          padding-right: 5px;
+          border: 1px solid #bd93f9;
+          border-radius: 4px;
+          width: 100%;
+          &::placeholder{
+            color: white;
+
+          }
+        }
+        &:nth-child(2){
+          margin-top: 10px;
+          flex-direction: row;
+          > button{
+            margin-right: 5px;
+            color: #282c34;
+            padding:  5px 5px;
+            border-radius: 5px;
+          }
+          > .createContactBtn{
+            background: #bd93f9;
+          }
+          > .cancelContactBtn{
+            background: #6272a4;
+          }
+        }
+      }
+    }
+  }
+  > .inputImg{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 300px;
+    > img{
+      max-height: 290px;
+    }
+  }
+}

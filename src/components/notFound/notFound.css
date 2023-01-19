@@ -1,0 +1,29 @@
+.notFoundHeader {
+  width: 70%;
+  color: #ffb86c;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.notFoundDiv {
+  width: 70%;
+  background: #44475a;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.notFoundDiv > img {
+  max-height: 250px;
+}/*# sourceMappingURL=notFound.css.map */

@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "fullname": "سوگند نورافکن",
+      "photo": "https://i0.wp.com/newdoorfiji.com/wp-content/uploads/2018/03/profile-img-1.jpg?ssl=1",
+      "mobile": "09011117234",
+      "email": "sogand.nourafkan@gmail.com",
+      "job": "طراح",
+      "group": "1",
+      "id": 2
+    },
+    {
+      "fullname": "علی مقتدر",
+      "photo": "https://arga-mag.com/file/img/2020/05/Boy-profile-picture-54.jpg",
+      "mobile": "+989147744002",
+      "email": "ali.moghtaderj99@gmail.com",
+      "job": "برنامه نویس",
+      "group": "1",
+      "id": 3
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "همکار"
+    },
+    {
+      "id": 2,
+      "name": "دوست"
+    },
+    {
+      "id": 3,
+      "name": "آشنا"
+    },
+    {
+      "id": 4,
+      "name": "سرویس"
+    },
+    {
+      "id": 5,
+      "name": "فامیل"
+    }
+  ]
+}

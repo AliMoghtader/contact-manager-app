@@ -1,0 +1,326 @@
+.profilesList {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.profilesList > .profile {
+  background: #44475a;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  direction: rtl;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  max-height: 250px;
+}
+.profilesList > .profile > .profileImg {
+  min-height: 125px;
+  max-width: 30%;
+  border: 1px #bd93f9 solid;
+  margin-left: 10px;
+}
+.profilesList > .profile > .profileInfo {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f8f8f2;
+  border-radius: 4px;
+}
+.profilesList > .profile > .profileInfo > div {
+  border-bottom: 1px #44475a solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  margin: 0;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+.profilesList > .profile > .profileInfo > div > p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.profilesList > .profile > .profileInfo > div > p:nth-child(2) {
+  font-weight: bold;
+}
+.profilesList > .profile > .profileButtons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 145px;
+  margin-left: 10px;
+}
+.profilesList > .profile > .profileButtons > .btn {
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profilesList > .profile > .profileButtons > .fa-eye {
+  background: #ffb86c;
+}
+.profilesList > .profile > .profileButtons > .fa-eye::before {
+  font-family: "FontAwesome";
+}
+.profilesList > .profile > .profileButtons > .fa-edit {
+  background: #8be9fd;
+}
+.profilesList > .profile > .profileButtons > .fa-edit::before {
+  font-family: "FontAwesome";
+}
+.profilesList > .profile > .profileButtons > .fa-trash {
+  background: #ff5555;
+}
+.profilesList > .profile > .profileButtons > .fa-trash::before {
+  font-family: "FontAwesome";
+}
+
+.profile {
+  background: #44475a;
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  direction: rtl;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  max-height: 250px;
+}
+.profile > .profileImg {
+  min-height: 125px;
+  max-width: 30%;
+  border: 1px #bd93f9 solid;
+  margin-left: 10px;
+}
+.profile > .profileInfo {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f8f8f2;
+  border-radius: 4px;
+}
+.profile > .profileInfo > div {
+  border-bottom: 1px #44475a solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  margin: 0;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+.profile > .profileInfo > div > p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.profile > .profileInfo > div > p:nth-child(2) {
+  font-weight: bold;
+}
+.profile > .profileButtons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 145px;
+  margin-left: 10px;
+}
+.profile > .profileButtons > .btn {
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.profile > .profileButtons > .fa-eye {
+  background: #ffb86c;
+}
+.profile > .profileButtons > .fa-eye::before {
+  font-family: "FontAwesome";
+}
+.profile > .profileButtons > .fa-edit {
+  background: #8be9fd;
+}
+.profile > .profileButtons > .fa-edit::before {
+  font-family: "FontAwesome";
+}
+.profile > .profileButtons > .fa-trash {
+  background: #ff5555;
+}
+.profile > .profileButtons > .fa-trash::before {
+  font-family: "FontAwesome";
+}
+
+.makecenter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.backBtnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.backBtnContainer .backBtn {
+  background: rgb(189, 147, 249);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #44475a;
+}/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,19 @@
+.notFoundHeader{
+    width: 70%;
+    color: #ffb86c;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.notFoundDiv{
+    width: 70%;
+    background: #44475a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    > img{
+        max-height: 250px;
+    }
+}

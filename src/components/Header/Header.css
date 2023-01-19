@@ -1,0 +1,158 @@
+.headerNav {
+  width: 70%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.headerNav > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 8px;
+}
+.headerNav > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.headerNav > div > div > strong::before {
+  font-family: "FontAwesome";
+  font-size: 24px;
+}
+.headerNav > div > div > p {
+  color: white;
+  margin: 0;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.headerNav > div > div > p > mark {
+  background: none;
+  color: #bd93f9;
+}
+.headerNav > div > .addBtn {
+  background: #ff79c6;
+  color: #282a36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.headerNav > div > .addBtn::before {
+  font-family: "FontAwesome";
+  color: #282a36;
+  margin-right: 5px;
+}
+.headerNav > div:nth-child(2) {
+  border: 1px #bd93f9 solid;
+  direction: ltr;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: revert;
+          flex-direction: revert;
+}
+.headerNav > div > .searchIcon {
+  padding: 5px;
+  background-color: #bd93f9;
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.headerNav > div > .searchIcon > strong {
+  color: #282a36;
+}
+.headerNav > div > .searchIcon > strong::before {
+  font-family: "FontAwesome";
+  font-family: 20px;
+}
+.headerNav > div > .searchInput {
+  background-color: #44475a;
+  min-width: 350px;
+  direction: rtl;
+  border: none;
+  padding: 5px;
+}
+.headerNav > div > .searchInput::-webkit-input-placeholder {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headerNav > div > .searchInput::-moz-placeholder {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headerNav > div > .searchInput:-ms-input-placeholder {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headerNav > div > .searchInput::-ms-input-placeholder {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+.headerNav > div > .searchInput::placeholder {
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 14px;
+}/*# sourceMappingURL=Header.css.map */

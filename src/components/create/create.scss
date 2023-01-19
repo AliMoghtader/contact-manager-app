@@ -1,0 +1,78 @@
+.createContactHeader{
+    width: 70%;
+    color: #50fa7b;
+    text-align: center;
+    border-bottom: #44475a 1px solid;
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    > div{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      > form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 70%;
+        > fieldset{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          > input{
+            margin-bottom: 5px;
+            background: #44475a;
+            color: white;
+            padding-right: 5px;
+            border: 1px solid #bd93f9;
+            border-radius: 4px;
+            width: 100%;
+            &::placeholder{
+              color: white;
+  
+            }
+          }
+          &:nth-child(2){
+            margin-top: 10px;
+            flex-direction: row;
+            > .btn{
+              margin-right: 5px;
+              color: #282c34;
+              padding:  5px 5px;
+              border-radius: 5px;
+            }
+            > .createContactBtn{
+              background: #bd93f9;
+            }
+            > .cancelContactBtn{
+              background: #6272a4;
+            }
+          }
+        }
+      }
+    }
+    > .inputImg{
+      display: flex;
+      
+      justify-content: space-evenly;
+      min-height: 300px;
+      > img{
+        max-height: 290px;
+      }
+    }
+  }

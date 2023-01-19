@@ -1,0 +1,134 @@
+.editContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.editContactHeader {
+  width: 70%;
+  margin: 0 auto;
+  color: #ffb86c;
+  text-align: center;
+  border-bottom: #44475a 1px solid;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.editDiv {
+  width: 60%;
+  padding: 10px;
+  background: #44475a;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.editDiv > .editImg {
+  margin-bottom: 40px;
+}
+.editDiv > .editImg > img {
+  max-height: 205px;
+  border: 1px #bd93f9 solid;
+  margin-left: 10px;
+}
+.editDiv > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 70%;
+}
+.editDiv > form > fieldset {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.editDiv > form > fieldset > input {
+  margin-bottom: 5px;
+  background: #44475a;
+  color: white;
+  padding-right: 5px;
+  border: 1px solid #bd93f9;
+  border-radius: 4px;
+  width: 100%;
+}
+.editDiv > form > fieldset > input::-webkit-input-placeholder {
+  color: white;
+}
+.editDiv > form > fieldset > input::-moz-placeholder {
+  color: white;
+}
+.editDiv > form > fieldset > input:-ms-input-placeholder {
+  color: white;
+}
+.editDiv > form > fieldset > input::-ms-input-placeholder {
+  color: white;
+}
+.editDiv > form > fieldset > input::placeholder {
+  color: white;
+}
+.editDiv > form > fieldset:nth-child(2) {
+  margin-top: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.editDiv > form > fieldset:nth-child(2) > .btn {
+  margin-right: 15px;
+  color: #282c34;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.editDiv > form > fieldset:nth-child(2) > .createContactBtn {
+  background: #bd93f9;
+}
+.editDiv > form > fieldset:nth-child(2) > .cancelContactBtn {
+  background: #6272a4;
+}
+
+.editImgVector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  min-height: 300px;
+  margin-top: 35px;
+}
+.editImgVector > img {
+  max-height: 290px;
+}/*# sourceMappingURL=edit.css.map */

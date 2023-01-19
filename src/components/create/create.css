@@ -1,0 +1,131 @@
+.createContactHeader {
+  width: 70%;
+  color: #50fa7b;
+  text-align: center;
+  border-bottom: #44475a 1px solid;
+  padding-bottom: 10px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inputDiv {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.inputDiv > div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.inputDiv > div > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 70%;
+}
+.inputDiv > div > form > fieldset {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.inputDiv > div > form > fieldset > input {
+  margin-bottom: 5px;
+  background: #44475a;
+  color: white;
+  padding-right: 5px;
+  border: 1px solid #bd93f9;
+  border-radius: 4px;
+  width: 100%;
+}
+.inputDiv > div > form > fieldset > input::-webkit-input-placeholder {
+  color: white;
+}
+.inputDiv > div > form > fieldset > input::-moz-placeholder {
+  color: white;
+}
+.inputDiv > div > form > fieldset > input:-ms-input-placeholder {
+  color: white;
+}
+.inputDiv > div > form > fieldset > input::-ms-input-placeholder {
+  color: white;
+}
+.inputDiv > div > form > fieldset > input::placeholder {
+  color: white;
+}
+.inputDiv > div > form > fieldset:nth-child(2) {
+  margin-top: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.inputDiv > div > form > fieldset:nth-child(2) > .btn {
+  margin-right: 5px;
+  color: #282c34;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.inputDiv > div > form > fieldset:nth-child(2) > .createContactBtn {
+  background: #bd93f9;
+}
+.inputDiv > div > form > fieldset:nth-child(2) > .cancelContactBtn {
+  background: #6272a4;
+}
+.inputDiv > .inputImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: 300px;
+}
+.inputDiv > .inputImg > img {
+  max-height: 290px;
+}/*# sourceMappingURL=create.css.map */
